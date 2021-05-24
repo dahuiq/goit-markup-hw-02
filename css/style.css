@@ -28,10 +28,8 @@ body {
 }
 .header {
   background-color: var(--white-color);
-  height: 80px;
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
 }
@@ -46,8 +44,8 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 1, 192;
-  letter-spacing: 0, 78;
+  line-height: 1.192;
+  letter-spacing: 0.78;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--cursor-color);
@@ -57,8 +55,8 @@ body {
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 1, 192;
-  letter-spacing: 0, 78;
+  line-height: 1.192;
+  letter-spacing: 0.78;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--text-color);
@@ -69,8 +67,8 @@ body {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
-  line-height: 1, 142;
-  letter-spacing: 0, 28;
+  line-height: 1.142;
+  letter-spacing: 0.28;
 }
 h1 {
   font-family: var(--main-font);
@@ -78,8 +76,8 @@ h1 {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 1, 363;
-  letter-spacing: 2, 64;
+  line-height: 1.363;
+  letter-spacing: 2.64;
   text-transform: uppercase;
   text-align: center;
 }
@@ -93,13 +91,12 @@ a {
 .container .main1 {
   background-color: var(--accent-color);
   color: var(--white-color);
-  height: 600px;
 }
 .onlineSign {
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
-  letter-spacing: 0, 96;
+  letter-spacing: 0.96;
   text-transform: uppercase;
   padding: 10px 32px;
   border-radius: 4px;
@@ -113,8 +110,8 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1, 142;
-  letter-spacing: 0, 42;
+  line-height: 1.142;
+  letter-spacing: 0.42;
 }
 .details p {
   font-family: var(--main-font);
@@ -123,7 +120,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0, 42;
+  letter-spacing: 0.42;
 }
 .business {
   font-family: var(--main-font);
@@ -131,17 +128,15 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 166;
+  line-height: 1.166;
   text-align: center;
-  letter-spacing: 1, 08;
+  letter-spacing: 1.08;
 }
 .ourteam {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
-  height: 648px;
   background-color: var(--team-color);
 }
 .team {
@@ -150,9 +145,9 @@ a {
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1, 166;
+  line-height: 1.166;
   text-align: center;
-  letter-spacing: 1, 08;
+  letter-spacing: 1.08;
 }
 .members p {
   font-family: var(--main-font);
@@ -160,8 +155,8 @@ a {
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 1, 187;
-  letter-spacing: 0, 48;
+  line-height: 1.187;
+  letter-spacing: 0.48;
 }
 .members .role {
   font-family: var(--main-font);
@@ -169,16 +164,16 @@ a {
   font-style: normal;
   font-weight: 400;
   font-size: 16px;
-  line-height: 1, 187;
-  letter-spacing: 0, 48;
+  line-height: 1.187;
+  letter-spacing: 0.48;
 }
 .studio2 {
   font-family: var(--accent-font);
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
-  line-height: 1, 192;
-  letter-spacing: 0, 78;
+  line-height: 1.192;
+  letter-spacing: 0.78;
   padding-top: 24;
   padding-bottom: 25;
   color: var(--white-color);
@@ -190,7 +185,7 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0, 42;
+  letter-spacing: 0.42;
 }
 .social {
   font-family: var(--main-font);
@@ -199,14 +194,12 @@ a {
   font-weight: 400;
   font-size: 14px;
   line-height: 2;
-  letter-spacing: 0, 42;
+  letter-spacing: 0.42;
 }
 .footer {
   margin-left: auto;
   margin-right: auto;
-  width: 1600px;
   padding-left: 15px;
   padding-right: 15px;
-  height: 252px;
   background-color: var(--accent-color);
 }
