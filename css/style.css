@@ -15,16 +15,41 @@
   padding: 0;
 }
 body {
-  width: 1600;
+  width: 1200px;
+  margin: 0 auto;
   font-family: var(--main-font);
   font-style: normal;
+  font-weight: normal;
 }
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
+  box-sizing: border-box;
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+header .container {
+  display: flex;
+  align-items: center;
+  border-bottom: 1px solid #ececec;
+  width: 1200px;
+  margin: 0 auto;
+  padding: auto 15px;
+  justify-content: space-between;
+}
+.container nav .navList {
+  display: flex;
+  padding-top: 0;
+  margin-bottom: 0;
+  justify-content: space-between;
+  /* display: block; */
+}
+.container nav .navList:not(:last-child) {
+  margin-right: 50px;
 }
 .header {
   background-color: var(--white-color);
@@ -32,6 +57,39 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+  justify-content: space-between;
+}
+.web1 {
+  padding-top: 24px;
+  margin-bottom: 25px;
+}
+.navList {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  justify-content: space-between;
+  color: inherit;
+  width: 294px;
+}
+.navlist li:first-child {
+  margin-left: 93px;
+}
+.container .media-list {
+  display: flex;
+  align-items: center;
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  justify-content: space-between;
+}
+.media-list li:not(:last-child) {
+  margin-right: 50px;
 }
 .navList a:hover,
 .navList a:focus,
@@ -70,7 +128,8 @@ body {
   line-height: 1.142;
   letter-spacing: 0.28;
 }
-h1 {
+
+.h1 {
   font-family: var(--main-font);
   color: var(--white-color);
   font-style: normal;
@@ -80,7 +139,9 @@ h1 {
   letter-spacing: 2.64;
   text-transform: uppercase;
   text-align: center;
+  margin-bottom: 30px;
 }
+
 ul {
   list-style: none;
 }
@@ -88,21 +149,32 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.container .main1 {
+.main1 {
   background-color: var(--accent-color);
   color: var(--white-color);
+  margin: 0 auto;
+  padding: 200px 0;
 }
+
 .onlineSign {
+  display: block;
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.96;
-  text-transform: uppercase;
   padding: 10px 32px;
   border-radius: 4px;
   background-color: var(--cursor-color);
   color: var(--white-color);
   cursor: pointer;
+  margin: 0 auto;
+  text-align: center;
+  align-items: center;
+}
+.container .details {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
 }
 .details h3 {
   font-family: var(--main-font);
@@ -122,6 +194,9 @@ a {
   line-height: 2;
   letter-spacing: 0.42;
 }
+.sec1 {
+  padding-top: 0px;
+}
 .business {
   font-family: var(--main-font);
   color: var(--text-color);
@@ -131,6 +206,12 @@ a {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 1.08;
+}
+.images1 {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 30px;
 }
 .ourteam {
   margin-left: auto;
@@ -148,6 +229,28 @@ a {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 1.08;
+  margin-bottom: 50px;
+}
+
+.members {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 30px;
+}
+.members li {
+  border: 1px solid transparent;
+  width: 270px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+  background-color: var(--white-color);
+  text-align: center;
+}
+
+.members .name {
+  margin-top: 30px;
+  margin-bottom: 10px;
 }
 .members p {
   font-family: var(--main-font);
@@ -157,6 +260,7 @@ a {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.48;
+  margin-bottom: 30px;
 }
 .members .role {
   font-family: var(--main-font);
@@ -166,6 +270,10 @@ a {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.48;
+}
+.web {
+  margin-top: 60px;
+  margin-bottom: 20px;
 }
 .studio2 {
   font-family: var(--accent-font);
@@ -177,6 +285,7 @@ a {
   padding-top: 24;
   padding-bottom: 25;
   color: var(--white-color);
+  margin-bottom: 20px;
 }
 .adress {
   font-family: var(--main-font);
@@ -186,6 +295,7 @@ a {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.42;
+  margin-bottom: 9px;
 }
 .social {
   font-family: var(--main-font);
@@ -195,6 +305,10 @@ a {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.42;
+  margin-bottom: 9px;
+}
+.contacts li:last-child {
+  padding-bottom: 60px;
 }
 .footer {
   margin-left: auto;

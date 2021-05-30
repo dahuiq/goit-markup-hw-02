@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./css/modern-normalize.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
@@ -12,20 +13,21 @@
     <link rel="stylesheet" href="./css/style1.css" />
   </head>
   <body>
-    <header>
+    <header class="header">
       <div class="container">
+        <a href="" class="logo"
+          ><p class="web1">Web<span class="studio">Studio</span></p></a
+        >
+
         <nav>
-          <a href="" class="logo"
-            ><p class="web">Web<span class="studio">Studio</span></p></a
-          >
           <ul class="navList">
             <li><a href="./index.html">Студия</a></li>
             <li><a href="">Портфолио</a></li>
             <li><a href="">Контакты</a></li>
           </ul>
         </nav>
-        <ul class="contacts">
-          <li><a href="">info@devstudio</a></li>
+        <ul class="media-list">
+          <li><a href="">info@devstudio.com</a></li>
           <li><a href="tel:+380961111111">+380 96 111 11 11</a></li>
         </ul>
       </div>
@@ -43,7 +45,7 @@
         </div>
       </section>
       <section>
-        <div clas="container">
+        <div class="container">
           <ul class="contenth2">
             <li>
               <a href="">
@@ -113,20 +115,22 @@
       </section>
     </main>
     <footer class="footer">
-      <a href="" class="logo"
-        ><p class="web">Web<span class="studio2">Studio</span></p></a
-      >
-      <address>
-        <ul class="footer2">
-          <li class="adress1">
-            <a href="">г. Киев, пр-т Леси Украинки, 26</a>
-          </li>
-          <li class="contacts2"><a href="">info@example.com</a></li>
-          <li class="contacts2">
-            <a href="tel:+380991111111">+38 099 111 11 11</a>
-          </li>
-        </ul>
-      </address>
+      <div class="container">
+        <a href="" class="logo">
+          <p class="web">Web<span class="studio2">Studio</span></p>
+        </a>
+        <address>
+          <ul class="contacts">
+            <li>
+              <a href="" class="adress">г. Киев, пр-т Леси Украинки, 26</a>
+            </li>
+            <li><a class="social" href="">info@example.com</a></li>
+            <li>
+              <a class="social" href="tel:+380991111111">+38 099 111 11 11</a>
+            </li>
+          </ul>
+        </address>
+      </div>
     </footer>
   </body>
 </html>
