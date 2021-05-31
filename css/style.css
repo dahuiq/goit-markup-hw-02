@@ -15,16 +15,15 @@
   padding: 0;
 }
 body {
-  width: 1600;
+  margin: 0 auto;
   font-family: var(--main-font);
   font-style: normal;
+  font-weight: normal;
 }
 .container {
-  margin-left: auto;
-  margin-right: auto;
-  width: 1600px;
-  padding-left: 15px;
-  padding-right: 15px;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 15px;
 }
 .header {
   background-color: var(--white-color);
@@ -32,6 +31,22 @@ body {
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px;
+}
+.navList {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
+  color: inherit;
+  width: 294px;
+}
+.container .media-list {
+  font-style: normal;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 1.142;
+  letter-spacing: 0.02em;
 }
 .navList a:hover,
 .navList a:focus,
@@ -70,7 +85,8 @@ body {
   line-height: 1.142;
   letter-spacing: 0.28;
 }
-h1 {
+
+.h1 {
   font-family: var(--main-font);
   color: var(--white-color);
   font-style: normal;
@@ -79,8 +95,8 @@ h1 {
   line-height: 1.363;
   letter-spacing: 2.64;
   text-transform: uppercase;
-  text-align: center;
 }
+
 ul {
   list-style: none;
 }
@@ -88,16 +104,16 @@ a {
   color: inherit;
   text-decoration: none;
 }
-.container .main1 {
+.main1 {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
+
 .onlineSign {
   font-weight: 700;
   font-size: 16px;
   line-height: 2;
   letter-spacing: 0.96;
-  text-transform: uppercase;
   padding: 10px 32px;
   border-radius: 4px;
   background-color: var(--cursor-color);
@@ -121,6 +137,9 @@ a {
   font-size: 14px;
   line-height: 2;
   letter-spacing: 0.42;
+}
+.sec1 {
+  padding-top: 0px;
 }
 .business {
   font-family: var(--main-font);
@@ -148,6 +167,7 @@ a {
   line-height: 1.166;
   text-align: center;
   letter-spacing: 1.08;
+  margin-bottom: 50px;
 }
 .members p {
   font-family: var(--main-font);
@@ -157,6 +177,7 @@ a {
   font-size: 16px;
   line-height: 1.187;
   letter-spacing: 0.48;
+  margin-bottom: 30px;
 }
 .members .role {
   font-family: var(--main-font);
